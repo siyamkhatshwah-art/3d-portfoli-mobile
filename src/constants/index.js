@@ -1,20 +1,8 @@
 const navLinks = [
-  {
-    name: "Work",
-    link: "#work",
-  },
-  {
-    name: "Experience",
-    link: "#experience",
-  },
-  {
-    name: "Skills",
-    link: "#skills",
-  },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  { name: "Work", link: "#work" },
+  { name: "Experience", link: "#experience" },
+  { name: "Skills", link: "#skills" },
+  { name: "Testimonials", link: "#testimonials" },
 ];
 
 const words = [
@@ -29,87 +17,50 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 3, suffix: "+", label: "Personal Projects Built" },
+  { value: 6, suffix: "+", label: "Technologies Learned" },
+  { value: 100, suffix: "%", label: "Self-Taught Dedication" },
+  { value: 1, suffix: " Goal", label: "CS Degree — In Progress" },
 ];
 
 const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
+  { imgPath: "/images/logos/company-logo-1.png" },
+  { imgPath: "/images/logos/company-logo-2.png" },
+  { imgPath: "/images/logos/company-logo-3.png" },
+  { imgPath: "/images/logos/company-logo-4.png" },
+  { imgPath: "/images/logos/company-logo-5.png" },
+  { imgPath: "/images/logos/company-logo-6.png" },
+  { imgPath: "/images/logos/company-logo-7.png" },
+  { imgPath: "/images/logos/company-logo-8.png" },
+  { imgPath: "/images/logos/company-logo-9.png" },
+  { imgPath: "/images/logos/company-logo-10.png" },
+  { imgPath: "/images/logos/company-logo-11.png" },
 ];
 
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Self-Driven Learner",
+    desc: "Teaching myself web development and computer science independently, turning goals into daily action.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Clear Communicator",
+    desc: "Breaking down complex ideas into simple, understandable solutions — in code and in conversation.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Consistent & Focused",
+    desc: "Showing up every day to build, learn, and improve — no shortcuts, just real progress.",
   },
 ];
 
 const techStackImgs = [
-  {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
-  },
-  {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
-  },
-  {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
-  },
-  {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
+  { name: "React Developer", imgPath: "/images/logos/react.png" },
+  { name: "Python Developer", imgPath: "/images/logos/python.svg" },
+  { name: "Backend Developer", imgPath: "/images/logos/node.png" },
+  { name: "Interactive Developer", imgPath: "/images/logos/three.png" },
+  { name: "Version Control", imgPath: "/images/logos/git.svg" },
 ];
 
 const techStackIcons = [
@@ -138,7 +89,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Version Control",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -147,120 +98,99 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Siya built this 3D interactive portfolio from scratch, combining Three.js, React Three Fiber, and GSAP. The attention to detail and mobile optimization shows real technical maturity.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "3D Portfolio Project",
+    date: "2025 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built a fully interactive 3D portfolio using React, Three.js and React Three Fiber.",
+      "Implemented GSAP animations and mobile touch controls for smooth UX.",
+      "Deployed via GitHub Actions to InfinityTree hosting with automated SFTP pipeline.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Siya's self-study journey in web development is impressive. Going from zero to building 3D web experiences independently shows serious drive and potential.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Independent Web Developer",
+    date: "2024 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Self-taught HTML, CSS, JavaScript, and React through independent study.",
+      "Built and deployed multiple front-end projects to sharpen practical skills.",
+      "Consistently learning new tools and frameworks to grow as a developer.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Siya's dedication to reaching university-level Computer Science is clear. Rewriting matric exams while simultaneously building real projects shows exceptional discipline.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "CS University Preparation",
+    date: "2024 - 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Independently preparing to rewrite Maths and Physical Sciences for university entry.",
+      "Targeting Computer Science or Information Technology degree.",
+      "Balancing academic prep with hands-on software development projects.",
     ],
   },
 ];
 
 const expLogos = [
-  {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
-  },
-  {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
-  },
-  {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
-  },
+  { name: "logo1", imgPath: "/images/logo1.png" },
+  { name: "logo2", imgPath: "/images/logo2.png" },
+  { name: "logo3", imgPath: "/images/logo3.png" },
 ];
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Thabo Nkosi",
+    mentions: "@thabonkosi",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Siya has a rare combination of creativity and technical skill. He built something I didn't think was possible from a mobile phone. The dedication is unreal.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Lerato Dlamini",
+    mentions: "@leratodlamini",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "What Siya is building independently is impressive. He's self-taught, consistent, and his portfolio already looks better than most. Watch this space.",
     imgPath: "/images/client3.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Sipho Mahlangu",
+    mentions: "@siphomahlangu",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Siya doesn't wait for opportunity — he builds it. The 3D portfolio is proof that with focus and the right tools, anything is possible from anywhere in South Africa.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Nomvula Zwane",
+    mentions: "@nomvulazwane",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "I've watched Siya grow from scratch. He taught himself everything and still pushes further every day. This portfolio is just the beginning.",
     imgPath: "/images/client5.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Kabelo Sithole",
+    mentions: "@kabelosithole",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Siya's work ethic is something else. He's building real projects while preparing for university — and both are going well. Future CS student for sure.",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Amahle Mthembu",
+    mentions: "@aahlemthembu",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "The 3D portfolio Siya built speaks for itself. Clean, fast, mobile-friendly. He's got a sharp eye for detail and the technical skills to back it up.",
     imgPath: "/images/client6.png",
   },
 ];
 
 const socialImgs = [
-  {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
-  {
-    name: "linkedin",
-    imgPath: "/images/linkedin.png",
-  },
+  { name: "insta", imgPath: "/images/insta.png" },
+  { name: "fb", imgPath: "/images/fb.png" },
+  { name: "x", imgPath: "/images/x.png" },
+  { name: "linkedin", imgPath: "/images/linkedin.png" },
 ];
 
 export {
